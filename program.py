@@ -5,6 +5,9 @@ if wiek.isdigit() == False:
     exit("Wiek musi być liczbą całkowitą")
 wiek = int(wiek)
 
+if wiek>120:
+    exit('Wiek jest nieprawidłowy, podaj realny wiek')
+
 if wiek >= 18 and wiek <= 40:
     print("Witaj w naszym sklepie")
 
