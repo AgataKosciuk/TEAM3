@@ -20,3 +20,12 @@ elif wiek >= 40 and wiek <= 100:
 
 else:
     print("Jesteś za małody. Zapraszamy na Disney.com")
+    
+    
+    
+region = input("Wybierz region. Wpisz USA dla Stanów Zjednoczonych, EUR dla Europy.")
+
+if region == "USA" or region == "EUR":
+    pass
+else:
+    exit("Podaj oznaczenie płci jako USA lub EUR.")
