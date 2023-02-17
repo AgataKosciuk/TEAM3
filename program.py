@@ -20,3 +20,10 @@ elif wiek >= 40 and wiek <= 100:
 
 else:
     print("Jesteś za małody. Zapraszamy na Disney.com")
+
+if wiek >= 30 and płeć == "K":
+    print("GRATULACJE!!! WYGRAŁA PANI DARMOWY APEROL SPRITZ! DOBREJ ZABAWY")
+
+
+
+
